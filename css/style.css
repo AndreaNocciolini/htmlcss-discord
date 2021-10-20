@@ -36,6 +36,7 @@ nav {
 .float {
     float: left;
     height: 100%;
+    max-width: 100%;
 }
 
 nav .float:first-child,
@@ -131,11 +132,6 @@ a.btn.dark:focus {
     clear: both;
 }
 
-.float {
-    float: left;
-    max-width: 100%;
-}
-
 .section-img {
     width: 60%;
     padding-left: 10em;
@@ -184,7 +180,7 @@ a.btn.dark:focus {
 .fourth-section {
     text-align: center;
     width: 80%;
-    margin: 10em auto;
+    margin: 10em auto 6em;
 }
 
 .star {
@@ -208,4 +204,21 @@ a.btn.dark:focus {
 .fourth-section .btn a:focus,
 .fourth-section .btn a:active {
     color: blue;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 5em;
+}
+
+.footer-section {
+    width: 80%;
+    margin: auto;
+    height: 5em;
+    background-color: tomato;
+}
+
+.flag-ita {
+    width: 1.2em;
 }
