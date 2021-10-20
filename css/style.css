@@ -222,3 +222,12 @@ footer {
 .flag-ita {
     width: 1.2em;
 }
+
+.social-menu li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.social-menu li a{
+    color: white;
+}
