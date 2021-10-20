@@ -124,3 +124,59 @@ a.btn.dark:active,
 a.btn.dark:focus {
     color: #265ee8;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+    max-width: 100%;
+}
+
+.section-img {
+    width: 60%;
+    padding-left: 10em;
+}
+
+.second-section-img {
+    width: 60%;
+    padding-left: 0;
+    padding-right: 10em;
+}
+
+.section-text {
+    width: 40%;
+    padding-right: 10em;
+}
+
+.second-section-text {
+    width: 40%;
+    padding-right: 0;
+    padding-left: 10em;
+    text-align: right;
+}
+
+.img-text {
+    width: 100%;
+}
+
+.img-text-second-section {
+    width: 100%;
+    margin: 0 0 0 4.5em;
+}
+
+.title {
+    margin-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+.text {
+    font-size: small;
+}
+
+.container {
+    margin-top: 4em;
+}
