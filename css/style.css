@@ -209,14 +209,11 @@ a.btn.dark:focus {
 footer {
     background-color: black;
     color: white;
-    height: 5em;
 }
 
 .footer-section {
     width: 80%;
     margin: auto;
-    height: 5em;
-    background-color: tomato;
 }
 
 .flag-ita {
@@ -230,4 +227,33 @@ footer {
 
 .social-menu li a{
     color: white;
+}
+
+.footer-menu {
+    list-style-type: none;
+}
+
+.footer-menu li a {
+    color:white;
+    text-decoration: none;
+}
+
+.footer-menu li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer-col-first {
+    width: 40%;
+}
+
+.footer-col-second,
+.footer-col-third,
+.footer-col-fouth,
+.footer-col-fifth {
+    width: 15%;
+}
+
+.footer-menu-padding {
+    padding-right: 2em;
 }
