@@ -178,5 +178,34 @@ a.btn.dark:focus {
 }
 
 .container {
-    margin-top: 4em;
+    margin-top: 10em;
+}
+
+.fourth-section {
+    text-align: center;
+    width: 80%;
+    margin: 10em auto;
+}
+
+.star {
+    background-image: url(../img/stars.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.background-star {
+    padding: 1.4em;
+}
+
+.fourth-section .btn a{
+    background-color: lightblue;
+    color: white;
+    margin-top: 2em;
+}
+
+.fourth-section .btn a:hover,
+.fourth-section .btn a:focus,
+.fourth-section .btn a:active {
+    color: blue;
 }
